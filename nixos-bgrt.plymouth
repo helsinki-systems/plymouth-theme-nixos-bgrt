@@ -5,7 +5,7 @@ ModuleName=two-step
 
 [two-step]
 Font=Cantarell 20
-ImageDir=/home/janne/projects/plymouth-theme/nixos-bgrt/images
+ImageDir=@IMAGES@
 
 DialogHorizontalAlignment=.5
 DialogVerticalAlignment=.8
