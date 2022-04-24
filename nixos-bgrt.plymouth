@@ -1,0 +1,32 @@
+[Plymouth Theme]
+Name=NixOS BGRT
+Description=BGRT theme with a spinning NixOS logo
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 20
+ImageDir=/home/janne/projects/plymouth-theme/nixos-bgrt/images
+
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.8
+HorizontalAlignment=.5
+VerticalAlignment=.8
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
